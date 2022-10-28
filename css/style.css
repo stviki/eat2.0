@@ -1,0 +1,41 @@
+html {
+  background-image: url(../images/christmas.jpg)
+}
+
+#tray {
+  background-image: url(../images/tray.png);
+  width: 1000px;
+  height: 791px;
+  margin: 0 auto;
+}
+
+#inside_tray {
+  display: flex;
+  width: 900px;
+  height: 691px;
+  margin: 70px;
+  margin-top: 0px;
+  padding-top: 50px;
+  flex-wrap: wrap;
+
+}
+
+#inside_tray .ginger_man{
+  background-image: url(../images/ginger.png);
+  width: 150px;
+  height: 240px;
+  display: block;
+  position: relative;
+  margin: 10px;
+  background-repeat: no-repeat;
+}
+
+
+
+
+h1 {
+  color: Maroon;
+  font-size: 100px;
+  font-style:italic;
+  font-family:inherit;
+}
